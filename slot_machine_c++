@@ -1,0 +1,42 @@
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+
+/* this function will generate a random number 
+between 0 and maxRange
+*/
+int getRandom(int maxRange){
+  int randValue = rand() % maxRange;
+  return randValue;
+
+}
+
+// ***** Write your code in this function. ****
+int win=17;
+int lose=33;
+int tryAgain=50;
+
+
+void getResult(){
+  cout<<"win"<<endl;
+}
+
+
+// Write your code above this line
+
+
+
+// These are the odds
+
+int main() {
+    // example for random number
+
+    for (int i=0;i<1000;i++){
+      //cout<< getRandom(10) <<endl;
+      getResult();
+    }
+	  return 0;
+}
