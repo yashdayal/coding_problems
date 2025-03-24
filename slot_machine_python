@@ -1,0 +1,22 @@
+# Write the code for slotmachine
+# this machine will have three outcomes
+# win, lose or try
+# You have to write a generator which will produce these values in that range
+
+import random
+
+odds = {'win':23, 'lose':12, 'try':60}
+
+# This function generates a random value between 0 and maxRange
+def generateRandom(maxRange):
+  randValue = int(random.random() * maxRange)
+  return randValue
+
+# Please write your solution in this function
+def printResult():
+  print ("win")
+
+for i in range(0,100):
+    printResult()
+  
+  
